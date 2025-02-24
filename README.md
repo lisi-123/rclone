@@ -21,7 +21,7 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 根据提示填入创建API令牌展示的内容
 
 
-## 宝塔计划任务
+## 添加宝塔计划任务
 
 宝塔面板-计划任务-shell脚本
 
