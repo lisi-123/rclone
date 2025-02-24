@@ -53,6 +53,4 @@ else
 fi
 
 # 提示用户配置已完成
-echo "Cloudflare R2 配置已完成，远程名为 'beifen' " 检测配置是否成功
-。"
-
+echo "Cloudflare R2 配置已完成，远程名为 'beifen' "
