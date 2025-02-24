@@ -13,7 +13,7 @@ curl https://rclone.org/install.sh | sudo bash
 # 提示输入 Cloudflare R2 相关信息
 while true; do
     read -p "请输入 Cloudflare R2 的访问密钥 ID（Access Key ID）: " access_key_id
-    read -sp "请输入 Cloudflare R2 的机密访问密钥（Secret Access Key）: " secret_access_key
+    read -p "请输入 Cloudflare R2 的机密访问密钥（Secret Access Key）: " secret_access_key
     echo
     read -p "请输入 Cloudflare R2 的终结点（Endpoint），例如：https://<account_id>.r2.cloudflarestorage.com: " endpoint
     echo
