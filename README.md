@@ -24,13 +24,21 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 
 <br>
 
-#### 遇到各种 command not found 请先执行
+#### debian/乌班图 遇到各种 command not found 请先执行
 
 ```bash
 apt-get update; apt-get install wget -y; apt install sudo -y; sudo apt install curl -y
 
 ```
 
+
+
+#### CentOS 遇到各种 command not found 请先执行
+
+```bash
+yum update -y; yum install wget -y; yum install sudo -y; yum apt install curl -y
+
+```
 <br>
 
 ## 添加宝塔计划任务
