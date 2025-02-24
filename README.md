@@ -34,7 +34,7 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/backup --progress
 ```
 
-理论上来说宝塔面板的数据库备份路径为“/www/backup/database/mysql/crontab_backup/数据库名称/”
+宝塔面板的默认数据库备份路径为“/www/backup/database/mysql/crontab_backup/数据库名称/”
 
 建议在宝塔面板的“文件”那里打开这个路径验证一下
 
