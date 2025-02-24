@@ -20,7 +20,7 @@
 wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare.sh && bash ./rclone_cloudflare.sh
 
 ```
-根据提示填入创建API令牌展示的内容
+根据提示填入创建API令牌时 展示的内容
 
 <br>
 
