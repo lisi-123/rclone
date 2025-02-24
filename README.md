@@ -28,6 +28,7 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 
 ```bash
 apt-get update; apt-get install wget -y; apt install sudo -y; sudo apt install curl -y
+
 ```
 
 <br>
