@@ -35,4 +35,4 @@ rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/b
 
 建议在宝塔的文件那里打开这个路径验证一下
 
-如果数据库备份不在该路径，请自行寻找对应路径并替换
+如果数据库备份文件不在该路径，请自行寻找对应路径并替换
