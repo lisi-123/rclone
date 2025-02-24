@@ -19,7 +19,7 @@ while true; do
     echo
 
     # 显示输入的结果
-    echo "您输入的 Cloudflare R2 配置信息如下："
+    echo "您输入的 Cloudflare R2 配置信息如下"
     echo "访问密钥 ID：$access_key_id"
     echo "机密访问密钥：$secret_access_key"
     echo "终结点：$endpoint"
