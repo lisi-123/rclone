@@ -21,9 +21,11 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 根据提示填写创建API令牌展示的内容
 
 
+## 宝塔计划任务
+
 宝塔面板-计划任务-shell脚本
 
-执行用户选择root，脚本内容填写以下内容，执行周期自选
+执行用户选择root，脚本内容填写以下内容，“数据库名称”改为自己的数据库名称，执行周期自选
 
 ```bash
 rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/backup --progress
