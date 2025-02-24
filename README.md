@@ -1,4 +1,4 @@
-## 使用rclone快速对接Cloudflare R2 存储桶
+## 创建 Cloudflare R2 对象存储 的 API令牌
 
 首先在Cloudflare账号选择左侧栏里的“R2 对象存储”
 
@@ -10,7 +10,7 @@
 
 创建后自行保存显示的所有内容，之后要用
 
-## 一键安装脚本
+## 使用rclone快速对接Cloudflare R2 存储桶
 
 您可以通过以下命令一键下载并执行安装脚本：
 
