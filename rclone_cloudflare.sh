@@ -8,7 +8,7 @@ fi
 
 # 安装 rclone
 echo "正在安装 rclone..."
-curl https://rclone.org/install.sh | sudo bash
+curl https://rclone.org/install.sh | bash
 
 # 提示输入 Cloudflare R2 相关信息
 read -p "请输入 Cloudflare R2 的访问密钥 ID（Access Key ID）: " access_key_id
