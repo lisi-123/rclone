@@ -1,6 +1,6 @@
 # 使用rclone快速对接Cloudflare R2 存储桶
 
-首先在Cloudflare账号开启左侧栏里的“R2 对象存储”
+首先在Cloudflare账号选择左侧栏里的“R2 对象存储”
 
 第一次开通需要绑定信用卡
 
