@@ -44,9 +44,16 @@ rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/b
 
 ## 计费问题
 
-Cloudflare R2 对象存储 目前有免费10g的储存空间，每月1g下载和无限制的上传
+Cloudflare R2 对象存储 目前免费套餐包括：
 
-而我们主要使用的是免费的上传功能，所以放心绑定信用卡，几乎不可能扣费
+免费10g的储存空间
+
+每月1g下载和无限制的上传
+
+每月免费 1 万次 API 请求
+
+
+我们主要使用免费的上传功能，所以放心绑定信用卡，几乎不可能扣费
 
 <br>
 
