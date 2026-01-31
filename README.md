@@ -29,7 +29,7 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 
 宝塔面板-计划任务-shell脚本
 
-执行用户选择root（没有则不选），脚本内容填写以下内容，“数据库名称”改为自己的数据库名称，执行周期自选
+执行用户选择root（没有则不选），脚本内容填写以下内容，“数据库名称”改为自己的数据库名称，执行周期自选，比如我选择的是十分钟执行 一次
 
 ```bash
 rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/backup --progress
@@ -40,6 +40,8 @@ rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/b
 建议在宝塔面板的“文件”那里打开这个路径验证一下
 
 如果数据库备份文件不在该路径，请自行寻找对应路径并替换
+
+计划任务做好了就手动点一下执行，执行后去cf的r2存储桐那边看到了一个名为backup的文件夹，且里面有数据库备份文件就算成功了
 
 <br>
 
