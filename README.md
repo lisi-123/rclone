@@ -27,6 +27,8 @@ wget -N https://raw.githubusercontent.com/lisi-123/rclone/main/rclone_cloudflare
 
 ## 添加宝塔计划任务
 
+首先看是否在计划任务里做了本地的数据库备份，没做的话，先做一下本地数据库备份，因为原理是把本地备份上传到cf。
+
 宝塔面板-计划任务-shell脚本
 
 执行用户选择root（没有则不选），脚本内容填写以下内容，“数据库名称”改为自己的数据库名称，执行周期自选，比如我选择的是十分钟执行 一次
@@ -42,6 +44,8 @@ rclone sync /www/backup/database/mysql/crontab_backup/数据库名称/ beifen:/b
 如果数据库备份文件不在该路径，请自行寻找对应路径并替换
 
 计划任务做好了手动点一下执行，执行后去cf的r2存储桶那边看到了一个名为backup的文件夹，且里面有数据库备份文件就算成功了
+
+工作原理：计划任务定时自动备份数据库到本地，然后
 
 <br>
 
